@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <title>Verficação de Idade</title>
+</head>
+<body>
+<div class="coolimages">
+    <h1>Imagens muito legais</h1>
+    <p>Galeria com Imagens legais</p>
+</div>
+
+
+<div class="formulario">
+    <main >
+    <div class="maintitle">
+        <h1>Bem vind@ a nossa página! Antes de prosseguir, verifique a sua idade.</h1>
+    </div>
+
+        <input type="number" name="" id="idadeInput">
+
+        <button onclick="verificarIdade()">Verificar </button>
+</div>
+
+    </main>
+    
+
+    <script>
+        function verificarIdade() {
+            var idade = parseInt(document.getElementById("idadeInput").value);
+
+            if (idade >=18) {
+                window.location.href = "maior.html";
+            }
+
+            else{
+                window.location.href = "menor.html";
+            }
+
+        }
+
+    </script>
+    
+</body>
+
+<footer>Developed by Guilherme Reis | Feb 2024 </footer>
+</html>

@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background: linear-gradient(0deg, rgba(255,245,202,1) 3%, rgba(255,253,185,1) 25%, rgba(119,6,179,1) 73%);
+    background-repeat: no-repeat;
+    overflow: hidden;
+    height: 42rem;
+    
+    
+}
+
+
+/* good ending página maior */
+
+.goodending{
+    text-align: center;
+    margin: 3rem;
+    padding: 1rem;
+    font-family: PT Sans;
+}
+
+
+/* good ending página maior end */
+
+.images{
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    translate:12rem;
+    max-height: 22rem;
+    max-width: 12rem;;
+    padding: 22px;
+    height: 22rem;
+    width:12rem;
+    margin:33px;
+}
+
+/* menor página warning */
+
+
+.warning{
+    text-align: center;
+    margin: 3rem;
+    padding:0.5rem;
+    font-family: PT Sans;
+    
+}
+
+
+/* menor página warning end */
